@@ -1,0 +1,135 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.jumbotron {
+    background-image: url("http://ivtravels.in/images/footer-bg1.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    background-color: lightblue;
+    margin: 20px;
+    color: black;
+}
+
+header {
+    margin: 20px;
+}
+main {
+    float: left; 
+    width: 74%;
+    margin: 10px 5px 10px 20px;
+}
+
+aside {
+    float: right;
+    border-radius: .3em;
+    width: 20%;
+    min-height: 600px;
+    background-color: lightgrey;
+    margin: 15px 20px 0 0;
+}
+
+aside h6 {
+    text-align: center;
+    margin: 10px;
+}
+
+div {
+    border: .5px solid lightgrey;
+    margin: 5px;
+    display: inline-block;
+    width: 220px;
+    height: 250px;
+    overflow: scroll;
+    /*position added so buttons show up properly*/
+    position: relative;
+}
+
+.saveListVersion {
+    height: 110px;
+    width: 100%;
+    position: relative;
+    background-image: none;
+
+}
+
+.saveListVersion p {
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+.pSection {
+    margin: 0;
+    border: none;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,1));    
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.rName {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 10px 6px 0 6px;
+}
+
+.rType {
+    font-size: 12px;
+    margin: 2px 6px 0 6px;
+}
+
+.rAddress {
+    font-size: 12px;
+    margin: 4px 6px 0 6px;
+}
+
+.inputLabel {
+    color: black;
+    font-size: 12px;
+    margin: 2px 6px 0 6px;
+}
+
+/*button formatting found at https://www.bestcssbuttongenerator.com/#/0*/
+.saveItem {
+	background-color:lightblue;
+	border-radius:28px;
+	border:1px solid blue;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:4px 10px;
+	text-decoration:none;
+    margin: 6px;
+    /*solution to get button at bottom of div found at stackoverflow: https://stackoverflow.com/questions/5817233/align-button-at-the-bottom-of-div-using-css */
+    position: absolute;
+    right: 0;
+    bottom: 0;         
+}
+
+.saveItem:hover {
+	background-color:blue;
+}
+.saveItem:active {
+	position:absolute;
+    right: 0;
+    bottom: 0;
+    background-color: green;
+}
+
+
+/* Removes the outline box on buttons when you click them. */
+/* Solution found at https://stackoverflow.com/questions/4524180/unwanted-outline-or-border-around-button-when-clicked*/
+.saveItem:focus {
+    outline: none;
+}
+:focus {
+    outline: none;
+}
+
+
+
+
